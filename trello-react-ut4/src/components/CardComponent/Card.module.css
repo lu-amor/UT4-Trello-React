@@ -1,0 +1,9 @@
+.tarjeta-tarea {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 20px; /* Aumentamos el padding para dar más espacio interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añadido para darle un efecto de elevación */
+    background-color: white; /* Añade un color de fondo para mayor contraste */
+}

@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": "b3d8",
+      "title": "Task 1",
+      "description": "",
+      "assigned": "Persona 1",
+      "priority": "Alta",
+      "status": "backlog",
+      "deadline": "2024-09-20"
+    },
+    {
+      "id": "b769",
+      "title": "Task 4",
+      "description": "",
+      "assigned": "Persona 1",
+      "priority": "Baja",
+      "status": "in progress",
+      "deadline": "2024-09-11"
+    }
+  ]
+}

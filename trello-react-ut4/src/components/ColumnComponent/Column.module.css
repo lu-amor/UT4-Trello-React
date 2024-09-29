@@ -1,0 +1,15 @@
+.columna {
+    background-color: #214696;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.title.is-3 {
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+}
+
