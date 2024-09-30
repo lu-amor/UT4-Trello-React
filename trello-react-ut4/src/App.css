@@ -17,5 +17,18 @@
 
 .titulo {
   text-align: center;
-  margin-top: 25px;
+  margin-top: 0px;
+  padding-top: 20px;
+  color: #f92a82 !important;
+}
+
+.customButton {
+  background-color: #6ab9f4 !important;
+  color: #214696 !important;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
 }

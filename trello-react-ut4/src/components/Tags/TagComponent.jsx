@@ -1,27 +1,27 @@
 import React from "react";
 import classes from './Tags.module.css';
 
-const TagComponent = ({priority}) => {
-    if (priority === 'Alta') {
-        return (
-            <span className={`${classes.tag} tag is-danger`}></span>
-        );
+const TagComponent = ({ priority }) => {
+    let tagClass = `${classes['tag-custom']} tag`;
+
+    switch (priority) {
+        case 'Alta':
+            tagClass += ' is-danger';
+            break;
+        case 'Media':
+            tagClass += ' is-warning';
+            break;
+        case 'Baja':
+            tagClass += ' is-success';
+            break;
+        default:
+            tagClass += ' is-info';
+            break;
     }
-    else if (priority === 'Media') {
-        return (
-            <span className={`${classes.tag} tag is-warning`}></span>
-        );
-    }
-    else if (priority === 'Baja') {
-        return (
-            <span className={`${classes.tag} tag is-success`}></span>
-        );
-    }
-    else {
-        return (
-            <span className={`${classes.tag} tag is-info`}></span>
-        );
-    }
+
+    return (
+        <span className={tagClass}></span>
+    );
 };
 
 export default TagComponent;

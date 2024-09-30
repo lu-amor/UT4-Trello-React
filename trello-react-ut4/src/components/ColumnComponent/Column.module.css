@@ -1,15 +1,18 @@
 .columna {
     background-color: #214696;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 20px;
-    border-radius: 10px;
+    border-radius: 18px;
     padding: 10px;
 }
 
-.title.is-3 {
+.custom-title {
     text-align: center;
-    margin-top: 25px;
     color: white;
+}
+
+.title-color {
+    color: #6ab9f4 !important;
 }
 
